@@ -1,0 +1,442 @@
+
+header{
+background-color: #EAC926;
+}
+header{
+   width:  100%
+}
+header nav{
+    width:  100%;
+    display: none;
+    justify-content:space-between;
+    position: relative;
+    bottom: 10px;
+}
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.buscar{
+    width: 100%;
+    padding: 12px;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+     
+}
+
+a.logo{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+}
+img.logo{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:  100px;
+    left: 25px;
+}
+header nav .se{
+  display: flex;
+  flex-direction:row;
+  margin-left: 5px ;
+
+}
+.se li{
+    margin-left: 5px;
+    
+}
+header nav ul.se{
+    display: flex;
+    justify-content:start;
+    margin-bottom: 0px;
+    
+}
+.icon{
+position: relative;
+top: 3px;
+left: 3px;
+}
+
+header nav .usuario{
+    
+    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    padding-right: 10px;
+    right: 50px;
+    
+    
+}
+.usuario a{
+    margin-left: 15px;
+    display: flex;
+}
+.lupa{
+    position:absolute;
+    left: 78%;
+    
+
+}
+.buscador{
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px black    ;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+    color: #666;
+    font-size: 14px;
+    
+}
+
+
+header nav ul li a {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li{
+list-style-type: none;
+
+
+}
+header nav ul{
+    
+    display: flex;
+    width: 35%;
+    
+}
+.burger-menu{
+
+background-color:  #1259c3;
+font-size: 20px;
+padding: 5px;
+
+border-radius: 5px;
+margin-left: 45%;
+margin-right: 45%;
+}
+.fa-truck{
+    color: #39b54a;
+}
+
+header div.burger-menu {
+   text-align: center;
+   
+   
+}
+main{
+    text-align: center;
+    width: 90vw;
+    
+}
+img.banner{
+
+width: 100%;
+
+}
+ 
+main section.articulos{
+    
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 30px;
+    
+    
+
+}
+main .basado{
+font-size: 20px;
+text-decoration: none;
+color:gray;
+
+position: relative;
+;
+text-align: center;
+}
+
+article{
+    transition: all 0.3s;
+    padding: 10px;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+
+}
+article p.precio{
+ width: 30%;
+ text-align: center;
+}
+.off{
+    color: #39b54a;
+    text-decoration: none;
+    font-size: 16px;
+    width: 70%;
+    padding-left: 10px;
+}
+main section article {
+margin-bottom: 10px;
+
+
+
+}
+.info{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+
+    
+   
+}
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid greenyellow;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+
+
+footer{
+    text-align: center;
+    display: flex;
+    
+    
+
+}
+.copy{
+    font-size: 9px;
+    display: flex;
+}
+
+   
+
+footer .pie-pagina{
+display:flex;
+justify-content:end;
+
+
+
+}
+.pie-pagina p{
+    font-size: 9px;
+    width: 100%;
+}
+footer h1{
+    font-size: 10px;
+}
+
+.desc{
+    display: none;
+    transition: all 5.3s;
+}
+.se a {
+    margin-left: 10px ;
+}
+#registro{
+background-color:#ebebeb;
+
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.olvidado{
+    font-size: 12px;
+}
+main#registro{
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+main#login{
+    align-items: center;
+    position: relative;
+    left: 40px;
+    background-color: #ebebeb;
+    width: 90%;
+    padding: 100px;
+}
+form div{
+margin-bottom: 10px;
+border-radius: 5%;
+width: 100%;
+}
+.text-field{
+    padding: 5px;
+    
+}
+.seleccion{
+    display: flex;
+    flex-direction: column;
+}
+.boton{
+    width: 20%;
+}
+.botoncancelar{
+background-color: red; 
+color: white;
+}
+
+.botonenviar{
+background-color: green;
+color: white;
+}
+.pie-pagina i{
+    color: #1259c3;
+}
+
+
+@media (min-width:430px){
+   header p{
+    position: relative;
+    left: 40px;
+    display: flex;
+    width: 80%;
+    top:-110px
+   }
+    .desc{
+        display: block;
+    }
+    main section article {
+        
+        width: 40%;
+        
+    }
+    
+
+    .articulos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        ;
+    }
+    .articulos img{
+        width: 100%;
+    }
+
+    main section.articulos{
+        display: flex;
+        position: relative;
+        left: 0px;
+        
+        
+    }
+    h4{
+        display: none;
+    }
+
+  
+}
+@media (min-width:769px){
+    header p{
+        position: relative;
+        left: 65%;
+        bottom: 95px;
+        width: 40%;
+
+    }
+
+    a.logo{
+             width: 25%;
+        padding: 10px;
+        display: flex;
+        position: relative;
+        right: 50px;
+        bottom: 50px; 
+        margin-right: 10px;
+    }
+   
+    main section article{
+            width: 22.5%;
+         }
+
+        
+     
+         
+        .desc {
+            display: none;
+        
+
+        }
+        article:hover .desc{
+         display: block; 
+         
+         
+        }
+        article:hover {
+           box-shadow: 0px 0px 10px rgb(100, 100, 100);  
+        }
+        article:hover i{
+            transform: rotate(-90deg);
+            transition: 0.5s;
+
+        }
+    .burger-menu {
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 45%;
+        margin-right: 45%;
+        display: none;
+    }
+    header nav ul {
+        display: none;
+        
+        
+    }
+    header nav{
+        display: flex;
+        
+    }
+    div .buscador{
+        position: relative;
+        bottom: 50px;
+        display: flex;
+        right: 60px;
+        width: 40%;
+    }
+    .lupa{
+    left: 96%
+    }
+
+}
